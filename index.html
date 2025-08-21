@@ -1,0 +1,148 @@
+<!-- Ifrane Distance Chart - Clean & Responsive -->
+<section class="ifranedist-container">
+  <h2>Distances from Ifrane to Major Moroccan Cities</h2>
+  <div class="table-wrap">
+    <table class="distance-table" aria-describedby="ifranedist-note">
+      <thead>
+        <tr>
+          <th>Destination</th>
+          <th>Straight-line Distance</th>
+          <th>Driving Distance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fès</td>
+          <td>50.44 mi (81.17 km)</td>
+          <td>59.88 mi (96.36 km)</td>
+        </tr>
+        <tr>
+          <td>Meknès</td>
+          <td>42.32 mi (68.10 km)</td>
+          <td>54.93 mi (88.40 km)</td>
+        </tr>
+        <tr>
+          <td>Tangier</td>
+          <td>172.55 mi (277.70 km)</td>
+          <td>263.71 mi (424.40 km)</td>
+        </tr>
+        <tr>
+          <td>Tétouan</td>
+          <td>155.27 mi (249.88 km)</td>
+          <td>294.08 mi (473.28 km)</td>
+        </tr>
+        <tr>
+          <td>Oujda</td>
+          <td>212.02 mi (341.21 km)</td>
+          <td>247.95 mi (399.04 km)</td>
+        </tr>
+        <tr>
+          <td>Rabat</td>
+          <td>102.41 mi (164.81 km)</td>
+          <td>139.11 mi (223.87 km)</td>
+        </tr>
+        <tr>
+          <td>Casablanca</td>
+          <td>137.25 mi (220.88 km)</td>
+          <td>198.50 mi (319.45 km)</td>
+        </tr>
+        <tr>
+          <td>Essaouira</td>
+          <td>292.06 mi (470.02 km)</td>
+          <td>422.07 mi (679.26 km)</td>
+        </tr>
+        <tr>
+          <td>Marrakech</td>
+          <td>198.66 mi (319.71 km)</td>
+          <td>344.60 mi (554.58 km)</td>
+        </tr>
+        <tr>
+          <td>Ouarzazate</td>
+          <td>192.54 mi (309.87 km)</td>
+          <td>325.62 mi (524.03 km)</td>
+        </tr>
+        <tr>
+          <td>Agadir</td>
+          <td>308.40 mi (496.32 km)</td>
+          <td>468.11 mi (753.35 km)</td>
+        </tr>
+        <tr>
+          <td>Laayoune</td>
+          <td>637.58 mi (1,026.09 km)</td>
+          <td>950.60 mi (1,529.84 km)</td>
+        </tr>
+        <tr>
+          <td>Dakhla</td>
+          <td>928.10 mi (1,493.64 km)</td>
+          <td>1,281.62 mi (2,062.57 km)</td>
+        </tr>
+        <tr>
+          <td>Chefchaouen</td>
+          <td>126.82 mi (204.10 km)</td>
+          <td>172.08 mi (276.93 km)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p id="ifranedist-note" class="small-note">
+    Notes: Distances are from Ifrane. Straight-line values are “as the crow flies”; driving distances follow typical road routes and may vary with conditions.
+  </p>
+</section>
+
+<style>
+  .ifranedist-container{
+    max-width: 860px;
+    margin: 0 auto;            /* centers the section */
+    padding: 12px 16px;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  }
+  .ifranedist-container h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 8px 0 14px;
+    font-weight: 700;
+  }
+  .table-wrap{
+    overflow-x: auto;          /* mobile friendliness */
+    margin: 0 auto;            /* centers the table wrapper */
+  }
+  .distance-table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background: #fff;
+  }
+  .distance-table th,
+  .distance-table td{
+    padding: 10px 12px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+    vertical-align: middle;
+    word-wrap: break-word;
+  }
+  .distance-table thead th{
+    font-weight: 700;
+    border-bottom: 2px solid #ddd;
+  }
+  .distance-table tbody tr:hover{
+    background: #fafafa;       /* subtle hover for readability */
+  }
+  .small-note{
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px 0 0;          /* minimal bottom gap */
+    text-align: center;
+  }
+  /* Optional: compact mode on very small screens */
+  @media (max-width: 520px){
+    .distance-table th:nth-child(2),
+    .distance-table td:nth-child(2){
+      width: 38%;
+    }
+    .distance-table th:nth-child(3),
+    .distance-table td:nth-child(3){
+      width: 38%;
+    }
+  }
+</style>
